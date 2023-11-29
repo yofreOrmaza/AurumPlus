@@ -8,11 +8,9 @@
 sudo apt install cmake
 ```
 
-## 2. Instalar clangd
+## 2. Instalar Packer
 
-```jsx
-sudo apt install clangd
-```
+1. Buscar Packer nvim en google y clonar el repositorio para instalación y uso.
 
 ---
 
