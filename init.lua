@@ -5,6 +5,7 @@ require('plugins')
 require('themes')
 require('scrollmap')
 require('starter')
+require('l-lualine')
 
 require('colorizercss')
 require('t-trouble')
