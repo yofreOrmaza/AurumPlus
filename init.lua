@@ -14,7 +14,6 @@ require('autosave')
 require('autopairs')
 
 require('mason-global')
-require('mason-cpp')
 require('l-lspconfig')
 require('l-lspzero')
 
