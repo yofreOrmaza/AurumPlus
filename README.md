@@ -12,6 +12,14 @@ sudo apt install cmake
 
 1. Buscar Packer nvim en google y clonar el repositorio para instalación y uso.
 
+## 3. Instalar entorno virtual de Python
+
+NOTA: Esta instalación **solo es necesaria si el Linter cpplint lo requiere**
+
+```bash
+sudo apt install python3-venv
+```
+
 ---
 
 # Crear el proyecto C++
