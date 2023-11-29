@@ -87,7 +87,6 @@ ins_left {
 ins_left {
   -- mode component
   function()
-    --return ''
     return '▊▊▊▊'
   end,
   color = function()
@@ -119,11 +118,11 @@ ins_left {
   padding = { right = 1 },
 }
 
-ins_left {
+--ins_left {
   -- filesize component
-  'filesize',
-  cond = conditions.buffer_not_empty,
-}
+  --'filesize',
+  --cond = conditions.buffer_not_empty,
+--}
 
 ins_left {
   'filename',
