@@ -1,1 +1,2 @@
-vim.cmd('colorscheme enfocado')
+vim.cmd('colorscheme github_dark_high_contrast')
+-- vim.cmd('colorscheme enfocado')

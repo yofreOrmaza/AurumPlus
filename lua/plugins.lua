@@ -4,7 +4,8 @@ return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim'
 
 	-- APARIENCIA
-        use 'wuelnerdotexe/vim-enfocado'
+        use 'wuelnerdotexe/vim-enfocado' -- theme #1
+	use 'projekt0n/github-nvim-theme' -- theme #2
 	use 'petertriho/nvim-scrollbar'
 	use { 'echasnovski/mini.starter', branch = 'stable' }
 	use 'nvim-lualine/lualine.nvim'
