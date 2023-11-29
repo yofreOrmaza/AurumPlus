@@ -6,6 +6,7 @@ require('themes')
 require('scrollmap')
 require('starter')
 require('l-lualine')
+require('b-barbar')
 
 require('colorizercss')
 require('t-trouble')
