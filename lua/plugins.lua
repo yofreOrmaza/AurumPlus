@@ -14,7 +14,8 @@ return require('packer').startup(function(use)
 	use 'akinsho/toggleterm.nvim'
 
 	-- SERVIDORES
-	
+	use 'williamboman/mason.nvim'
+        use 'williamboman/mason-lspconfig.nvim'
 
 	-- ENTORNO
         use 'Pocco81/auto-save.nvim'

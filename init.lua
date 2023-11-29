@@ -13,6 +13,9 @@ require('toggleterminal')
 require('autosave')
 require('autopairs')
 
+require('mason-global')
+require('mason-cpp')
+
 require('cmaketools')
 require('compilermd')
 require('createcmakelistsfile')
