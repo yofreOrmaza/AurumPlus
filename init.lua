@@ -11,6 +11,7 @@ require('b-bufferline')
 require('colorizercss')
 require('t-trouble')
 require('toggleterminal')
+require('chad')
 
 require('autosave')
 require('autopairs')

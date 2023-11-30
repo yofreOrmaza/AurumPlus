@@ -16,6 +16,11 @@ return require('packer').startup(function(use)
 	use 'folke/trouble.nvim'
 	use 'akinsho/toggleterm.nvim'
 	use 'nvim-tree/nvim-web-devicons'
+	use {
+	   'ms-jpq/chadtree',
+	   branch = 'chad',
+	   run = 'python3 -m chadtree deps'
+	}
 
 	-- SERVIDORES
 	use 'williamboman/mason.nvim'
