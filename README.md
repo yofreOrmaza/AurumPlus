@@ -1,5 +1,6 @@
 # Crear un proyecto C++ desde AurumPlus
 
+- [¿Como clonar este repositorio?]()
 - [Requisitos](#requisitos)
 - [Bug Fixes (Lista de Errores Solucionados)](/GuideForErrors.md/)
 
@@ -45,3 +46,14 @@ Una vez haya creado su programa es necesario compilarlo.
     ```bash
     ./nombreDelPrograma
     ```
+
+---
+
+## Instalación
+
+#### Clona este repositorio
+
+```bash
+git clone --depth 1 https://github.com/yofreOrmaza/AurumPlus ~/.config/nvim
+nvim
+```
