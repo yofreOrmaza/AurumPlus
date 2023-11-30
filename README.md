@@ -14,8 +14,6 @@ sudo apt install cmake
 
 ## 3. Instalar entorno virtual de Python
 
-NOTA: Esta instalación **solo es necesaria si el Linter cpplint lo requiere**
-
 ```bash
 sudo apt install python3-venv
 ```
