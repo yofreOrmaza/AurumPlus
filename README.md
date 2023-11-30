@@ -15,10 +15,10 @@ sudo apt install cmake
 
 1. Buscar Packer nvim en google y clonar el repositorio para instalación y uso.
 
-## 3. Instalar entorno virtual de Python
+## 3. Instalar g++
 
 ```bash
-sudo apt install python3-venv
+sudo apt install g++-12
 ```
 
 ---
