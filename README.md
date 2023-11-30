@@ -1,5 +1,8 @@
 # Crear un proyecto C++ desde AurumPlus
 
+- [Requisitos](#requisitos)
+- [Bug Fixes (Lista de Errores Solucionados)](/GuideForErrors.md/)
+
 # Requisitos
 
 ## 1. Instalar cmake
