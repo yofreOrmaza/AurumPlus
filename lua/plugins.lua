@@ -9,6 +9,7 @@ return require('packer').startup(function(use)
 	use 'petertriho/nvim-scrollbar'
 	use { 'echasnovski/mini.starter', branch = 'stable' }
 	use 'nvim-lualine/lualine.nvim'
+	use 'akinsho/bufferline.nvim'
 	
 	--- PLUGINS
         use 'norcalli/nvim-colorizer.lua'
