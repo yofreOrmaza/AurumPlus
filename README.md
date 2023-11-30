@@ -37,8 +37,8 @@ sudo apt install python3-venv
 
 Una vez haya creado su programa es necesario compilarlo.
 
-1. Crear el sistema make en modo comando desde AurumPlus mediante **:CMakeGenerate**  
-2. Construir el proyecto en modo comando desde AurumPlus mediante **:CMakeBuild**, y seleccionar **all**
+1. Crear el sistema make en modo comando desde AurumPlus mediante **:Generate**  
+2. Construir el proyecto en modo comando desde AurumPlus mediante **:Build**
 3. Abrir la terminal interna de AurumPlus con el mapeo `Control+j` , dirigirse a la carpeta /out/Debug/ y ejecutar el programa
     
     ```bash
