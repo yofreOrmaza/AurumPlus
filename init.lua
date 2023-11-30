@@ -20,5 +20,6 @@ require('l-lspconfig')
 require('l-lspzero')
 
 require('cmaketools')
+require('coderuncpp')
 require('compilermd')
 require('createcmakelistsfile')
