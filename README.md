@@ -28,6 +28,8 @@ sudo apt install cmake
 sudo apt install g++-12
 ```
 
+### 4. Instalar nodejs y npm
+
 ---
 
 ### Crear el proyecto C++
