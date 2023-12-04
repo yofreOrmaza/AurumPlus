@@ -28,9 +28,9 @@ sudo apt install cmake
 sudo apt install g++-12
 ```
 
-### 4. Instalar nodejs y npm
+#### 4. Instalar nodejs y npm
 
-### 5. Instalar [code-minimap](https://github.com/wfxr/code-minimap)
+#### 5. Instalar [code-minimap](https://github.com/wfxr/code-minimap)
 
 Es necesario para que el minimapa del IDE se pueda visualizar
 
