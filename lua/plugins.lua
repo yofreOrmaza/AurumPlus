@@ -21,6 +21,7 @@ return require('packer').startup(function(use)
 	   branch = 'chad',
 	   run = 'python3 -m chadtree deps'
 	}
+	use 'wakatime/vim-wakatime'
 
 	-- SERVIDORES
 	use 'williamboman/mason.nvim'
