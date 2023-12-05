@@ -40,7 +40,6 @@ return require('packer').startup(function(use)
 	-- ENTORNO
         use 'Pocco81/auto-save.nvim'
 	use 'windwp/nvim-autopairs'
-	use 'wfxr/minimap.vim'
 
 	-- LENGUAJE
 	use {'Civitasv/cmake-tools.nvim', requires = {{'nvim-lua/plenary.nvim'},}}

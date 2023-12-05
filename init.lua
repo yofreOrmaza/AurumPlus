@@ -15,7 +15,6 @@ require('chad')
 
 require('autosave')
 require('autopairs')
-require('m-minimap')
 
 require('mason-global')
 require('l-lspconfig')
