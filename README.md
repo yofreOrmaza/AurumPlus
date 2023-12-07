@@ -69,7 +69,8 @@ Una vez haya creado su programa es necesario compilarlo.
 ### Requisitos para markdown preview
 
 Preview
-![]()
+
+![](./imgs/AurumPlusmarkdownPreview.png)
 
 #### 1. Instalar mdr
 
