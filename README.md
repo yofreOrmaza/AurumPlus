@@ -78,7 +78,7 @@ En el caso de **Arch Linux** el paquete se encuentra en este [repositorio AUR](h
 
 #### 2. Uso
 
-En modo comando en neovim ingresar **`:PreviewMarkdown [left|top|right|bottom|tab]`** (dependiendo la ubicación en la que se quiera el previsualizador)
+El mapeo corresponde a `Control + i` (en modo normal) para activar el preview del archivo markdown
 
 ---
 
