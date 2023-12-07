@@ -8,6 +8,7 @@
 
 - [¿Como clonar este repositorio?]()
 - [Requisitos](#requisitos)
+- [Requisitos para markdown preview desde neovim](#requisitos-para-markdown-preview)
 - [Bug Fixes (Lista de Errores Solucionados)](/GuideForErrors.md/)
 
 ### Requisitos
@@ -62,6 +63,21 @@ Una vez haya creado su programa es necesario compilarlo.
     ```bash
     ./nombreDelPrograma
     ```
+
+---
+
+### Requisitos para markdown preview
+
+Preview
+![]()
+
+#### 1. Instalar mdr
+
+En el caso de **Arch Linux** el paquete se encuentra en este [repositorio AUR](https://aur.archlinux.org/packages/mdr)
+
+#### 2. Uso
+
+En modo comando en neovim ingresar **`:PreviewMarkdown [left|top|right|bottom|tab]`** (dependiendo la ubicación en la que se quiera el previsualizador)
 
 ---
 
