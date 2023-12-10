@@ -9,7 +9,7 @@
 - [¿Como clonar este repositorio?]()
 - [Requisitos](#requisitos)
 - [Requisitos para markdown preview desde neovim](#requisitos-para-markdown-preview)
-- [¿Como activar WakaTime para estadísticas personales de codificación?](#)
+- [¿Como activar WakaTime para estadísticas personales de codificación?](#activar-wakatime)
 - [Bug Fixes (Lista de Errores Solucionados)](/GuideForErrors.md/)
 
 ### Requisitos
