@@ -8,6 +8,7 @@
 
 - [¿Como clonar este repositorio?]()
 - [Requisitos](#requisitos)
+- [Inicio rápido en AurumPlus](#inicio-con-aurumplus)
 - [Requisitos para markdown preview desde neovim](#requisitos-para-markdown-preview)
 - [¿Como activar WakaTime para estadísticas personales de codificación?](#activar-wakatime)
 - [Bug Fixes (Lista de Errores Solucionados)](/GuideForErrors.md/)
@@ -20,29 +21,41 @@
 sudo apt install cmake
 ```
 
-#### 2. Instalar Packer
-
-1. Buscar Packer nvim en google y clonar el repositorio para instalación y uso.
-
-#### 3. Instalar g++
+#### 2. Instalar g++ (gcc en Arch Linux)
 
 ```bash
 sudo apt install g++-12
 ```
 
-#### 4. Instalar nodejs y npm
-
-#### 5. Instalar [code-minimap](https://github.com/wfxr/code-minimap)
-
-Es necesario para que el minimapa del IDE se pueda visualizar
-
-
-
-
+#### 3. Instalar nodejs y npm
 
 ---
 
-### Crear el proyecto C++
+### Inicio con AurumPlus
+
+#### 1. Limpiar cache de neovim (en caso de haberse instalado configuraciones anteriormente)
+
+```bash
+rm -rf ~/.local/share/nvim/
+```
+
+```bash
+rm -rf ~/.local/state/nvim/
+```
+
+```bash
+rm -rf ~/.cache/nvim/
+```
+
+#### 2. Instalar Packer
+
+1. Buscar Packer nvim en google y clonar el repositorio para instalación y uso.
+
+2. **NOTA (Arch Linux):** En el caso de Arch linux SI se cuenta con el respectivo [repositorio AUR](https://aur.archlinux.org/packages/nvim-packer-git)
+
+---
+
+### Crear un proyecto C++
 
 1. Crear la carpeta del proyecto
 2. Crear el archivo CMakeLists.txt y modificar el número de versión de cmake (En caso de necesitarlo)
