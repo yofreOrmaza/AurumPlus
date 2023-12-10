@@ -21,7 +21,7 @@ return require('packer').startup(function(use)
 	   branch = 'chad',
 	   run = 'python3 -m chadtree deps'
 	}
-	use 'wakatime/vim-wakatime'
+	--use 'wakatime/vim-wakatime'
 	use 'yofreOrmaza/preview-markdown.vim'
 
 	-- SERVIDORES

@@ -9,6 +9,7 @@
 - [¿Como clonar este repositorio?]()
 - [Requisitos](#requisitos)
 - [Requisitos para markdown preview desde neovim](#requisitos-para-markdown-preview)
+- [¿Como activar WakaTime para estadísticas personales de codificación?](#)
 - [Bug Fixes (Lista de Errores Solucionados)](/GuideForErrors.md/)
 
 ### Requisitos
@@ -79,6 +80,18 @@ En el caso de **Arch Linux** el paquete se encuentra en este [repositorio AUR](h
 #### 2. Uso
 
 El mapeo corresponde a `Control + i` (en modo normal) para activar el preview del archivo markdown
+
+---
+
+### Activar WakaTime
+
+[Wakatime](https://wakatime.com) es un servicio u herramienta útil que rastrea automáticamente todo tipo de métricas personales durante el tiempo de programación.
+
+Para activar este complemento solo basta con:
+
+1. Dirigirse hacia el archivo /lua/plugins.lua y descomentar la línea que indica el uso de wakatime.
+
+2. Actualizar/Instalar el plugin con el mapeo `PP` o `PU` para que WakaTime sea instalado. 
 
 ---
 
