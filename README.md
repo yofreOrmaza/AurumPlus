@@ -89,7 +89,7 @@ El mapeo corresponde a `Control + i` (en modo normal) para activar el preview de
 
 2. Pegar dicha API KEY en el prompt de neovim que espera el token y presionar Enter
 
-3. En caso de querer cambiar la API KEY, esta se encuentra en el archivo `~/.wakatime.cfg`
+3. En caso de querer cambiar la API KEY se encuentra en el archivo `~/.wakatime.cfg`
 
 **¿Qué es WakaTime?** Es un servicio/herramienta útil que rastrea automáticamente todo tipo de métricas personales durante el tiempo de programación.
 
