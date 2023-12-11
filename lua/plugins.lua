@@ -53,6 +53,7 @@ return require('packer').startup(function(use)
    -- ENTORNO
    use 'Pocco81/auto-save.nvim'
    use 'windwp/nvim-autopairs'
+   use 'kristijanhusak/vim-carbon-now-sh'
 
    -- LENGUAJE
    use {'Civitasv/cmake-tools.nvim', requires = {{'nvim-lua/plenary.nvim'},}}

@@ -15,6 +15,7 @@ require('chad')
 
 require('autosave')
 require('autopairs')
+require('carbonSnapShot')
 
 require('mason-global')
 require('l-lspconfig')
