@@ -8,6 +8,9 @@
 
 - [¿Como clonar este repositorio?]()
 - [Requisitos](#requisitos)
+- [Inicio rápido en AurumPlus](#inicio-con-aurumplus)
+- [Requisitos para markdown preview desde neovim](#requisitos-para-markdown-preview)
+- [¿Como activar WakaTime para estadísticas personales de codificación?](#activar-wakatime)
 - [Bug Fixes (Lista de Errores Solucionados)](/GuideForErrors.md/)
 
 ### Requisitos
@@ -18,19 +21,41 @@
 sudo apt install cmake
 ```
 
-#### 2. Instalar Packer
-
-1. Buscar Packer nvim en google y clonar el repositorio para instalación y uso.
-
-#### 3. Instalar g++
+#### 2. Instalar g++ (gcc en Arch Linux)
 
 ```bash
 sudo apt install g++-12
 ```
 
+#### 3. Instalar nodejs y npm
+
 ---
 
-### Crear el proyecto C++
+### Inicio con AurumPlus
+
+#### 1. Limpiar cache de neovim (en caso de haberse instalado configuraciones anteriormente)
+
+```bash
+rm -rf ~/.local/share/nvim/
+```
+
+```bash
+rm -rf ~/.local/state/nvim/
+```
+
+```bash
+rm -rf ~/.cache/nvim/
+```
+
+#### 2. Instalar Packer
+
+1. Buscar Packer nvim en google y clonar el repositorio para instalación y uso.
+
+2. **NOTA (Arch Linux):** En el caso de Arch linux SI se cuenta con el respectivo [repositorio AUR](https://aur.archlinux.org/packages/nvim-packer-git)
+
+---
+
+### Crear un proyecto C++
 
 1. Crear la carpeta del proyecto
 2. Crear el archivo CMakeLists.txt y modificar el número de versión de cmake (En caso de necesitarlo)
@@ -52,6 +77,34 @@ Una vez haya creado su programa es necesario compilarlo.
     ```bash
     ./nombreDelPrograma
     ```
+
+---
+
+### Requisitos para markdown preview
+
+Preview
+
+![](./imgs/AurumPlusmarkdownPreview.png)
+
+#### 1. Instalar mdr
+
+En el caso de **Arch Linux** el paquete se encuentra en este [repositorio AUR](https://aur.archlinux.org/packages/mdr)
+
+#### 2. Uso
+
+El mapeo corresponde a `Control + i` (en modo normal) para activar el preview del archivo markdown
+
+---
+
+### Activar WakaTime
+
+1. Tener una cuenta en [Wakatime](https://wakatime.com) y **copiar la API Key** que se encuentra en **settings**
+
+2. Pegar dicha API KEY en el prompt de neovim que espera el token y presionar Enter
+
+3. En caso de querer cambiar la API KEY se encuentra en el archivo `~/.wakatime.cfg`
+
+**¿Qué es WakaTime?** Es un servicio/herramienta útil que rastrea automáticamente todo tipo de métricas personales durante el tiempo de programación.
 
 ---
 

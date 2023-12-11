@@ -1,0 +1,13 @@
+-- Renderizar archivos Rmd a Pdf consta de algunas instalaciones para que sea completamente funcional:
+
+-- 1. Instalar R => sudo pacman -S r-base
+-- 2. Instalar tcltk => sudo pacman -S tk
+-- 3. Ingresar R para ingresar a consola de rmarkdown y asi instalar los paquetes necesarios => R
+-- 4. Instalar paquete rmarkdown => install.packages('rmarkdown')
+-- 4.1 Cargar el paquete instalado => library('rmarkdown')
+-- 4.2 Instalar TinyTex => install.packages("tinytex")
+-- 4.2.1 => tinytex::install_tinytex()
+-- 5. Instalar Pandoc => sudo pacman -S pandoc
+-- 6. Instalar Okular (visor pdf) => sudo pacman -S okular
+-- 7. Actualizar el sistema => sudo pacman -Syu
+-- 8. Listo, REINICIAR el equipo
